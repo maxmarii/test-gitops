@@ -2,7 +2,7 @@
 # Scopo: eseguire l'immagine costruita dalla pipeline, seguendo il tag "latest".
 services:
   web:
-    image: docker pull ghcr.io/maxmarii/test-code:sha-6519cec 
+    image: ghcr.io/maxmarii/maxmarii/test-code:sha-6519cec 
     ports:
       - "8090:8000"
     restart: unless-stopped
